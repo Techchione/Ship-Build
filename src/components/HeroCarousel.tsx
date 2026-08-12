@@ -50,15 +50,15 @@ export const HeroCarousel: React.FC<HeroCarouselProps> = ({
               src={currentSlide.image}
               alt={currentSlide.title}
               referrerPolicy="no-referrer"
-              className="w-full h-full object-cover object-center transform scale-105"
+              className="w-full h-full object-cover object-center transform scale-105 brightness-125 contrast-105"
             />
           </motion.div>
         </AnimatePresence>
 
-        {/* Sophisticated Dual Layer Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-r from-[#0B192C] via-[#0B192C]/80 to-[#0B192C]/40 z-10" />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#0B192C] via-transparent to-[#0B192C]/60 z-10" />
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-sky-900/20 via-transparent to-transparent z-10" />
+        {/* Lighter Gradient Overlay to show vivid bright images */}
+        <div className="absolute inset-0 bg-gradient-to-r from-[#050B16]/75 via-[#050B16]/40 to-transparent z-10" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#050B16]/80 via-transparent to-[#050B16]/30 z-10" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-sky-900/10 via-transparent to-transparent z-10" />
       </div>
 
       {/* Main Hero Content */}
