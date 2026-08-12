@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;600;700&display=swap');
+
+@layer utilities {
+  .text-stroke-white {
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.9);
+    color: transparent;
+  }
+  .text-stroke-sky {
+    -webkit-text-stroke: 1px #38bdf8;
+    color: transparent;
+  }
+}
+
+body {
+  background-color: #050B16;
+  color: #f8fafc;
+  font-family: 'Space Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Oceanic Marine Shipbuilding",
+  "description": "High-end international shipbuilding, marine engineering, fabrication, repairs, and offshore solutions website.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
